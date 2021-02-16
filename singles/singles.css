@@ -1,0 +1,96 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+
+}
+
+header {
+    padding: 40px;
+    background-color: #f15f37;
+}
+
+nav {
+    background-color: #ffb9b0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 135%;
+}
+
+nav a:hover {
+    background-color: #d6d6d5;
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+nave ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+}
+
+section h1,
+section h2 {
+    color: #f15f37;
+    font-family: serif;
+    font-size: 280%;
+}
+
+section h2 {
+    color: #f15f37;
+    font-size: 140%;
+
+}
+
+footer {
+    background-color: #ffb9b0;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.hearts {
+    width: 30%;
+    float: right;
+}
+
+.button {
+    background-color: #d6d6d5;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: serif;
+}
+
+a .button:hover {
+    background-color: #ec3d0f;
+    color: #f15f37;
+}
