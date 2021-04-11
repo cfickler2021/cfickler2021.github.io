@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 210%;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+}
+
+
+footer {
+    padding: 1.6%;
+}
+
+header {
+    background-color: white;
+}
+
+nav li {
+    padding: 25px;
+}
+
+nav,
+footer {
+    background-color: #0ec8c7;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+nav ul,
+footer li {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a,
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav li,
+footer li {
+    display: inline;
+}
+
+
+section {
+    background-color: #ec3632;
+    overflow: auto;
+}
+
+aside {
+    background-color: #ec3632;
+    width: auto;
+    float: left;
+    color: white;
+
+}
+
+aside li {
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+article {
+    background-color: white;
+    width: 70%;
+    float: right;
+    padding: 3%;
+
+}
+
+footer {
+    background-color: #0ec8c7;
+    color: black;
+    font-size: 70%
+}
+
+footer a {
+    color: white;
+    font-size: 125%;
+}
+
+
+.buy {
+    width: 40%;
+    float: right;
+    padding: 0 0 1% 2%;
+}
+
+header img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: aqua;
+    }
+
+    #wrap {
+        width: 100%;
+
+    }
+
+
+    nav a,
+    footer a {
+        width: 100%;
+        padding: 15px 15px;
+        display: block;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 70%;
+
+    }
+
+    .buy {
+        width: 99%;
+        float: none;
+    }
+
+    aside {
+        text-align: center;
+    }
